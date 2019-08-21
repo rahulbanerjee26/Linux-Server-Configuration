@@ -166,9 +166,9 @@
  7. cd into the folder `cd catalogApp` 
  
  **Clone and setup the project**
- 8. clone the required repo `sudo git clone https://github.com/rahulbanerjee26/Item-Catalog.git` Rename file to catalogApp
- 9. Go into the repo using cd and   rename  `app.py`  to  `__init__.py`  `sudo mv app.py __init__.py`
- 10. In `__init__.py` and `databaseSetup.py` files, remove the sqlite connection and connect to postgresql database.  `engine = create_engine('postgresql://catalog:password@localhost/catalog')`
+ 1. clone the required repo `sudo git clone https://github.com/rahulbanerjee26/Item-Catalog.git` Rename file to catalogApp 
+ 2. Go into the repo using cd and   rename  `app.py`  to  `__init__.py`  `sudo mv app.py __init__.py` 
+ 3. In `__init__.py` and `databaseSetup.py` files, remove the sqlite connection and connect to postgresql database.  `engine = create_engine('postgresql://catalog:password@localhost/catalog')`
 
 **Create and Configure a New Virtual Host**
 
@@ -244,7 +244,8 @@
 <h3><u> Resources </u>  </h3>
 
  1. [https://www.fullstackpython.com/blog/postgresql-python-3-psycopg2-ubuntu-1604.html](https://www.fullstackpython.com/blog/postgresql-python-3-psycopg2-ubuntu-1604.html)
- 2. 
+ 2. https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
+ 3. 
 
 <h3><u> Author</u>  </h3>
 
